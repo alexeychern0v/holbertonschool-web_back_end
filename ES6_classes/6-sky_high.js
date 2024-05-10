@@ -1,5 +1,4 @@
 import Building from './5-building';
-export default SkyHighBuilding;
 
 class SkyHighBuilding extends Building {
   constructor(sqft, floors) {
@@ -16,3 +15,4 @@ class SkyHighBuilding extends Building {
   }
 }
 
+export default SkyHighBuilding;
