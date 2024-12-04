@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-import math
 """ variable annotations in Python """
+import math
+""" imported module math for floor"""
 
 
 def floor(n: float) -> int:
