@@ -53,11 +53,12 @@ class Server:
          total_pages = math.ceil(total_lines / page_size)
          next_page = page + 1 if page < total_pages else None
          prev_page = page - 1 if page > total_pages else None
+         
          return {
-            "page_size": len(data),
-            "page": page,
-            "data": data,
-            "next_page": next_page,
-            "prev_page": prev_page,
-            "total_pages": total_pages
+            'page_size': len(data),
+            'page': page,
+            'data': data,
+            'next_page': next_page,
+            'prev_page': prev_page,
+            'total_pages': total_pages
         }
